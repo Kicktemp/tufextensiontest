@@ -1,28 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<updates><update>
-  <name>System - TufExtensionTest</name>
-  <description>TufExtensionTest Plugin</description>
-  <element>tufextensiontest</element>
-  <type>plugin</type>
-  <folder>system</folder>
-  <client>site</client>
-  <section>updates</section>
-  <version>1.0.0</version>
-  <changelogurl>https://raw.githubusercontent.com/Kicktemp/tufextensiontest/master/changelog.xml</changelogurl>
-  <infourl title="TufExtensionTest Plugin">https://github.com/Kicktemp/tufextensiontest/</infourl>
-  <downloads>
-    <downloadurl type="full" format="zip"><![CDATA[https://github.com/Kicktemp/tufextensiontest/releases/download/v1.0.0/plg_system_kickjanolaw_1.0.0.zip]]></downloadurl>
-  </downloads>
-  <sha256>1c8f42959ec589cbc95e10f6df6aa86c9abc80499dfa25efcb2ce1280bb3a251</sha256>
-  <sha384>3e8a44175c228e553d4d109cd72531e6576cd519233fd9fb11190b211e9efcbfb9d644a3dcf02443c0454041582a42a7</sha384>
-  <sha512>74d9c1a7c90a85bbbf3ac2511fdce600d83bef073f7734143d1ff3b29303e4d6203373ea03b52ec8c3c163dfdb230662dc3e5b7dac892b4dc2615d0517542b75</sha512>
-  <tags>
-    <tag>stable</tag>
-  </tags>
-  <maintainer>Kicktemp GmbH</maintainer>
-  <maintainerurl>https://kicktemp.com</maintainerurl>
-  <php_minimum>7.2.5</php_minimum>
-  <supported_databases mysql="5.6" mariadb="10.1"/>
-  <targetplatform name="joomla" version="4.[01]"/>
-</update>
+<updates>
+	<update>
+		<name>System - TufExtensionTest</name>
+		<description>TufExtensionTest Plugin</description>
+		<element>tufextensiontest</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<section>updates</section>
+		<version>1.0.0</version>
+		<changelogurl>https://raw.githubusercontent.com/Kicktemp/tufextensiontest/master/changelog.xml</changelogurl>
+		<infourl title="TufExtensionTest Plugin">https://github.com/Kicktemp/tufextensiontest/</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">
+				<![CDATA[https://github.com/Kicktemp/tufextensiontest/releases/download/v1.0.1/plg_system_kickjanolaw_1.0.1.zip]]></downloadurl>
+		</downloads>
+		<sha256>75669400fa07b58f29f84e81d7c8fa099a2cdf966d58bba9202277bdb18c4840</sha256>
+		<sha384>75cf58d332d403dff8421d55d4d3851127e39cc4e180340195000c5809dc080d2296d46be30efc56c5a5c22316d513bb
+		</sha384>
+		<sha512>
+			bd185895e7f96f3f86cbaf653a26cd7125545b38ce14fdc8a5caffdc36aa95f6a5fab41f154e2d969c318e4723096a06dbb8f6ae7b2fbcc191e79040037a7ce7
+		</sha512>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>Kicktemp GmbH</maintainer>
+		<maintainerurl>https://kicktemp.com</maintainerurl>
+		<php_minimum>7.2.5</php_minimum>
+		<supported_databases mysql="5.6" mariadb="10.1"/>
+		<targetplatform name="joomla" version="4.[01]"/>
+	</update>
 </updates>
