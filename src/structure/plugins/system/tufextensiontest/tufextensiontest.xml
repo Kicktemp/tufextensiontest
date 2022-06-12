@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade">
+	<name>[PACKAGE_NAME]</name>
+	<creationDate>[DATE]</creationDate>
+	<author>[AUTHOR]</author>
+	<authorEmail>[AUTHOR_EMAIL]</authorEmail>
+	<authorUrl>https://kicktemp.com</authorUrl>
+	<copyright>[COPYRIGHT]</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>[VERSION]</version>
+	<changelogurl>https://raw.githubusercontent.com/KickTemp/tufextensiontest/master/changelog.xml</changelogurl>
+	<description>PLG_SYSTEM_TUFEXTENSIONTEST_XML_DESCRIPTION</description>
+	<namespace path="src">Kicktemp\Plugin\System\TufExtension</namespace>
+	<scriptfile>script.php</scriptfile>
+	<files>
+		<file plugin="tufextensiontest">tufextensiontest.php</file>
+		<folder>language</folder>
+		<folder>src</folder>
+	</files>
+	<config>
+		<fields name="params" addfieldprefix="Kicktemp\Plugin\System\TufExtension\Field">
+			<fieldset name="basic">
+				<field name="user-id"
+					   type="text"
+					   label="PLG_SYSTEM_TUFEXTENSIONTEST_FIELD_USER_ID_LABEL"
+					   required="true"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="tuf" name="[PROJECT_NAME]">
+			https://raw.githubusercontent.com/Kicktemp/tufextensiontest/master/update.xml
+		</server>
+	</updateservers>
+</extension>
