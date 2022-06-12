@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<updates>
+<updates><update>
+  <name>System - TufExtensionTest</name>
+  <description>TufExtensionTest Plugin</description>
+  <element>tufextensiontest</element>
+  <type>plugin</type>
+  <folder>system</folder>
+  <client>site</client>
+  <section>updates</section>
+  <version>1.0.1</version>
+  <changelogurl>https://raw.githubusercontent.com/Kicktemp/tufextensiontest/master/changelog.xml</changelogurl>
+  <infourl title="TufExtensionTest Plugin">https://github.com/Kicktemp/tufextensiontest/</infourl>
+  <downloads>
+    <downloadurl type="full" format="zip"><![CDATA[https://github.com/Kicktemp/tufextensiontest/releases/download/v1.0.1/plg_system_kickjanolaw_1.0.1.zip]]></downloadurl>
+  </downloads>
+  <sha256>2addb07edd84477472481a0fd6207c0056490f5b254cf3ac5789aad268a6c1f9</sha256>
+  <sha384>32d6976d637b82b99d49b3d780fbec819601e30435c2df18fa610169984ef90d2a63034f153121d6f8d3e95932afe094</sha384>
+  <sha512>3f87d41e7af5ec5e7f3e5b0fb1581f194db4f3876577ff22446fb802f30f989871c11cc9f40af7b55984597f8472524a52ebdba4cda0bb7c55fd36846f08798a</sha512>
+  <tags>
+    <tag>stable</tag>
+  </tags>
+  <maintainer>Kicktemp GmbH</maintainer>
+  <maintainerurl>https://kicktemp.com</maintainerurl>
+  <php_minimum>7.2.5</php_minimum>
+  <supported_databases mysql="5.6" mariadb="10.1"/>
+  <targetplatform name="joomla" version="4.[01]"/>
+</update>
 	<update>
 		<name>System - TufExtensionTest</name>
 		<description>TufExtensionTest Plugin</description>
@@ -16,11 +41,8 @@
 				<![CDATA[https://github.com/Kicktemp/tufextensiontest/releases/download/v1.0.1/plg_system_kickjanolaw_1.0.1.zip]]></downloadurl>
 		</downloads>
 		<sha256>75669400fa07b58f29f84e81d7c8fa099a2cdf966d58bba9202277bdb18c4840</sha256>
-		<sha384>75cf58d332d403dff8421d55d4d3851127e39cc4e180340195000c5809dc080d2296d46be30efc56c5a5c22316d513bb
-		</sha384>
-		<sha512>
-			bd185895e7f96f3f86cbaf653a26cd7125545b38ce14fdc8a5caffdc36aa95f6a5fab41f154e2d969c318e4723096a06dbb8f6ae7b2fbcc191e79040037a7ce7
-		</sha512>
+		<sha384>75cf58d332d403dff8421d55d4d3851127e39cc4e180340195000c5809dc080d2296d46be30efc56c5a5c22316d513bb</sha384>
+		<sha512>bd185895e7f96f3f86cbaf653a26cd7125545b38ce14fdc8a5caffdc36aa95f6a5fab41f154e2d969c318e4723096a06dbb8f6ae7b2fbcc191e79040037a7ce7</sha512>
 		<tags>
 			<tag>stable</tag>
 		</tags>
